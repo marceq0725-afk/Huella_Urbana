@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella_Urbana</title>
     <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Sansita+Swashed:wght@300..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -16,11 +21,11 @@
         <nav>
             <ul>
                 <!--  #hace referencia a un identificador unico  -->
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Servicios">Servicios</a></li>
-                <li><a href="#Planes">Planes</a></li>
-                <li><a href="#Paseadores">Paseadores</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Inicio" class="boton">Inicio</a></li>
+                <li><a href="#Servicios" class="boton">Servicios</a></li>
+                <li><a href="#Planes" class="boton">Planes</a></li>
+                <li><a href="#Paseadores" class="boton">Paseadores</a></li>
+                <li><a href="#Contacto" class="boton">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -28,10 +33,18 @@
     <main>
         <!-- inicio -->
         <section id="Inicio">
-            <h1>Huella Urbana</h1>
+            <h1 id="Titulo">Huella Urbana</h1>
             <p id="slogan">Paseos seguros y felices para tu mascota, mientras cumples con tu día.</p>
-            <a href="#Contacto">Agenda un paseo</a>
+            <a href="#Contacto" class="boton">Agenda un paseo</a>
+            <br>
             <img src="img/principal.jpg" alt="Paseo de Mascotas">
+        </section>
+
+        <section id="vIdeo">
+            <iframe width="315" height="576" src="https://www.youtube.com/embed/tV2uHWjL5VA"
+                title="#amorincondicional #vidadechihuahua #chihuahua" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
         </section>
 
         <section id="Servicios">
@@ -88,8 +101,19 @@
                 <p class="parrafo">Estudiante de veterinaria, especialista en perros grandes</p>
             </article>
         </section>
-
+        <section id="Contacto">
+            <h2>Contactanos</h2>
+            <p>Escribenos y agenda el primer paseo para tu mascota</p>
+            <ul>
+                <li><a href="mailto:contacto@huellaurbana.com">contacto@huellaurbana.com</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Huella Urbana. Todos los derechos reservados.</p>
+        <p>Fotos: <a href="https://www.pexels.com" target="_blank">pexels</a></p>
+    </footer>
 </body>
 
 </html>
