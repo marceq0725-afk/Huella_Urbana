@@ -1,0 +1,26 @@
+body {
+    background-color: #E7FEFD; 
+    color:#062f2f;
+    }
+
+header {
+    background-color:#0BF4EC;
+    }
+
+p {
+    font-size: 20pt;
+}
+
+#slogan {
+    color: rgb(3, 26, 228);
+    font-size: 30pt;
+}
+
+.parrafo {
+    background-color: rgb(48, 229, 169);
+}
+
+#Servicios article img{
+    width: 300px;
+    height: 300px;
+}
